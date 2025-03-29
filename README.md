@@ -1,23 +1,17 @@
-# Getting Started with Create React App
+** Hướng dẫn triển khai **
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cài đặt Node.js và npm
+Cài đặt Capacitor CLI: npm install -g @capacitor/cli
+Tạo thư mục dự án và sao chép các file vào
+Chạy npm install để cài đặt dependencies
+Thêm nền tảng mong muốn (android hoặc ios)
+Mở project trong Android Studio/Xcode và chạy trên thiết bị hoặc giả lập
+Ứng dụng này đáp ứng đầy đủ các yêu cầu:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Giao diện rõ ràng với tiêu đề, nút bấm và hiển thị thời gian
+Sử dụng Local Notifications để hiển thị thông báo
+Sử dụng Share API để chia sẻ thời gian
+Bonus: Chức năng chụp màn hình sử dụng Camera API
 
 ### `npm run build`
 
